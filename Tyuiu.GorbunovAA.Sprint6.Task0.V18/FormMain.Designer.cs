@@ -39,6 +39,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task0.V18
             this.groupBoxCon_GAA = new System.Windows.Forms.GroupBox();
             this.labelCondition_GAA = new System.Windows.Forms.Label();
             this.buttonhelp_GAA = new System.Windows.Forms.Button();
+            this.labelForm_GAA = new System.Windows.Forms.Label();
             this.groupBoxEnter_GAA.SuspendLayout();
             this.groupBoxOut_GAA.SuspendLayout();
             this.groupBoxCon_GAA.SuspendLayout();
@@ -112,6 +113,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task0.V18
             // 
             // groupBoxCon_GAA
             // 
+            this.groupBoxCon_GAA.Controls.Add(this.labelForm_GAA);
             this.groupBoxCon_GAA.Controls.Add(this.labelCondition_GAA);
             this.groupBoxCon_GAA.Location = new System.Drawing.Point(28, 23);
             this.groupBoxCon_GAA.Name = "groupBoxCon_GAA";
@@ -138,6 +140,15 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task0.V18
             this.buttonhelp_GAA.Text = "?";
             this.buttonhelp_GAA.UseVisualStyleBackColor = true;
             this.buttonhelp_GAA.Click += new System.EventHandler(this.buttonhelp_GAA_Click_1);
+            // 
+            // labelForm_GAA
+            // 
+            this.labelForm_GAA.AutoSize = true;
+            this.labelForm_GAA.Location = new System.Drawing.Point(455, 36);
+            this.labelForm_GAA.Name = "labelForm_GAA";
+            this.labelForm_GAA.Size = new System.Drawing.Size(99, 13);
+            this.labelForm_GAA.TabIndex = 1;
+            this.labelForm_GAA.Text = "(x**3 - 8) / (2 * x**2)";
             // 
             // FormMain
             // 
@@ -175,6 +186,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task0.V18
         private System.Windows.Forms.GroupBox groupBoxCon_GAA;
         private System.Windows.Forms.Label labelCondition_GAA;
         private System.Windows.Forms.Button buttonhelp_GAA;
+        private System.Windows.Forms.Label labelForm_GAA;
     }
 }
 
