@@ -67,7 +67,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task7.V24
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(11, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 68);
             this.button1.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task7.V24
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(153, 12);
+            this.button2.Location = new System.Drawing.Point(152, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 68);
             this.button2.TabIndex = 1;
@@ -85,7 +85,7 @@ namespace Tyuiu.GorbunovAA.Sprint6.Task7.V24
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(294, 12);
+            this.button3.Location = new System.Drawing.Point(293, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 68);
             this.button3.TabIndex = 1;
